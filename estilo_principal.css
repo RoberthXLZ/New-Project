@@ -27,6 +27,7 @@ header {
     color: #254461;
 }
 
+
 #titu >h2{
 	width: auto;
 	margin: 0%;
@@ -61,6 +62,7 @@ ul , li{
     background: #254461;
     text-align: center;
     color: white; 
+    display: inline;
     font-size: 2em;
     padding: 0.5% 0% 1%;
     font-family: 'Jaldi', sans-serif;
@@ -84,4 +86,11 @@ nav li:hover {
 
 .opcion:hover > #subIcono{
 	display: block;
+}
+a{
+    color: #254461;
+}
+a:hover {
+    text-decoration: none;
+    color: #254461;
 }
