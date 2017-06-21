@@ -2,8 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
 body{
     height: auto;
-    padding: 0%;
+    padding: 5%;
     display: block;
+    background-color: #7393FD;
+}
+
+.contenedor_principal{
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    margin-left: 50px;
+    margin-right: 100px;
+    background-color:black; 
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 header {
 	width: 100%;
@@ -50,9 +64,9 @@ header {
 	width: 100%;
     height: 55px;
     background-color: #254461;
-    max-width: 100%;
-    position: fixed;
-    z-index: 1;
+    /*max-width: 100%;*/
+    /*position: fixed;*/
+    /*z-index: 0;*/
 }
 
 #menu #menus{
@@ -61,24 +75,26 @@ header {
     background-color: #254461;
     position: relative;
     max-width: 100%;
+    margin-left: 2px;
 }
 ul , li{
 	list-style: none;
 	margin: 0%;
 }
 .opcion {
-	width: 15%;
+	width: 150px;
     float: left;
-    margin: 0%;
+    margin-right: 0px;
     height: 55px;
     background: #254461;
     text-align: center;
     color: white; 
     display: inline;
     font-size: 2em;
-    padding: 0.5% 0% 1%;
+    padding: 8px 0px 1px;
     font-family: 'Jaldi', sans-serif;
-    max-width: 15%;
+    max-width: 20%;
+    /*border: 2px solid black;*/
 }
 .subopcion {
 
@@ -94,9 +110,9 @@ ul , li{
 	z-index: 1;
 	display: none;
 	position: absolute;
-    width: 14.5%;
+    width: 150px;
     padding: 0%;
-    max-width: 15%;
+    /*max-width: 15%;*/
 }
 nav li:hover {
      background-color: #405467;
