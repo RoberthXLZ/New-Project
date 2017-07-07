@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="css/estilomenu.css">
     <link rel="stylesheet" type="text/css" href="css/piePagina.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
 	<title>UESER</title>
@@ -18,14 +19,13 @@
 <body>
 	<!--ENCABEZADO Y MENU-->
 	<header>
-		<div id="titulo">
-			<div id="titu">
-				<h1><a href="index.html">UESER</a></h1>
-			    <h2>Unidad Educativa "Sociedad, Educacion Y Renovacion"</h2>
-			</div>
-			
-		</div>
-		<div class="navbar-wrapper">
+        <div id="titulo">
+            <div id="titu">
+                <h1><a href="index.html">UE-SER</a></h1>
+                <h2>Unidad Educativa "Sociedad, Educacion Y Renovacion"</h2>
+            </div>
+        </div>
+        <div class="navbar-wrapper">
     <div class="container-fluid">
         <nav class="navbar navbar-fixed-top" >
             <div class="container">
@@ -40,41 +40,51 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html" class="">Inicio</a></li>
                         <li class=" dropdown">
                             <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca de Nosotros <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li class=" dropdown">
-                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Misión y Visión</a>
+                                    <a href="lineaTiempo.html">Historia</a>
                                 </li>
                                 <li class=" dropdown">
-                                    <a href="lineaTiempo.html" class="dropdown-toggle "  role="button" aria-haspopup="true" aria-expanded="false">Historia</a>
+                                    <a href="principal.html">Misión y Visión</a>
                                 </li>
-                                <li><a href="#">Trayectoria</a></li>
+                                <li class=" dropdown">
+                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Directivos</a>
+                                </li>
                             </ul>
                         </li>
                         <li class=" dropdown">
-                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admisiones<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li class=" dropdown">
-                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Instalaciones</a>
+                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Perfil del Estudiante</a>
                                 </li>
                                 <li class=" dropdown">
-                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Deportes</a>
+                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos de Admisión</a>
                                 </li>
-                                <li><a href="#">Concursos</a></li>
                                 <li class=" dropdown">
-                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actividades Recreativas</a>
+                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Uniformes</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Información <span class="caret"></span></a>
+                        <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Información Academica<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Reglamento</a></li>
-                                <li><a href="#">Admisión</a></li>
+                                <li><a href="#">Reglamentos</a></li>
+                                <li><a href="#">Abanderados</a></li>
+                                <li><a href="#">Actividades Extras</a></li>
                             </ul>
                         </li>
-                         <li><a href="#">Contactenos</a></li>
+                         <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informativos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Noticias</a></li>
+                                <li><a href="#">Galeria</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="proximosEventos.html">Proximo Eventos</a></li>
+                                <li><a href="#">Calendario de Actividades</a></li>
+                            </ul>
+                        </li>
+                         <li><a href="contactenos.html ">Contactenos</a></li>
                         
                     </ul>
                     <ul class="nav navbar-nav pull-right">
@@ -92,7 +102,9 @@
         </nav>
     </div>
 </div>
-	</header>
+    </header>
+
+
 	<!--CUERPO-->
 	<section id="contenedor">
 	<div id="seccionNoti">
@@ -100,20 +112,24 @@
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="4" class="active"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="imagen/18836425_1383039178397934_31496873_o.png" alt="First slide">
+          <img class="first-slide" src="imagen/ueser.jpg" alt="First slide">
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="imagen/reinas.jpg" alt="Second slide">
           
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-         
+          <img class="third-slide" src="imagen/olimpiadas.jpg" alt="Third slide">
+        </div>
+        <div class="item">
+          <img class="fourth-slide" src="imagen/abanderado.jpg" alt="Fourth slide">
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -128,7 +144,154 @@
     </div>
     
     </section>
-    
+
+<!--Sección Media de la Página Web-->
+<div class="container">
+    <div class="row">
+        <h2 font-family="New Time Roman">Mensaje De los Directivos</h2>
+    </div>
+</div>
+<div class="carousel-reviews broun-block">
+    <div class="container">
+        <div class="row">
+            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+            
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">Hercules</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+                                <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img class="imgCitas" src="imagen/ueser.jpg"/>
+                                <a title="" href="#">Anna</a>
+                                <i>from Glasgow, Scotland</i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 hidden-xs">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">The Purge: Anarchy</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+                                <p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img class="imgCitas" src="imagen/ueser.jpg"/>
+                                <a title="" href="#">Ella Mentree</a>
+                                <i>United States</i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">Planes: Fire & Rescue</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+                                <p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img class="imgCitas" src="imagen/edgar.jpg"/>
+                                <a title="" href="#">Rannynm</a>
+                                <i>Indonesia</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">Hercules</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+                                <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img class="imgCitas" alt="" src="imagen/edgar.jpg">
+                                <a title="" href="#">Anna</a>
+                                <i>from Glasgow, Scotland</i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 hidden-xs">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">The Purge: Anarchy</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+                                <p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img class="imgCitas" alt="" src="imagen/edgar.jpg">
+                                <a title="" href="#">Ella Mentree</a>
+                                <i>United States</i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">Planes: Fire & Rescue</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+                                <p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img class="imgCitas" alt="" src="imagen/edgar.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">Hercules</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+                                <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img alt="" class="imgCitas" src="imagen/ueser.jpg">
+                                <a title="" href="#">Anna</a>
+                                <i>from Glasgow, Scotland</i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 hidden-xs">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">The Purge: Anarchy</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+                                <p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img alt="" src="imagen/ueser.jpg">
+                                <a title="" href="#">Ella Mentree</a>
+                                <i>United States</i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                            <div class="block-text rel zmin">
+                                <a title="" href="#">Planes: Fire & Rescue</a>
+                                <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+                                <p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
+                                <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                            </div>
+                            <div class="person-text rel">
+                                <img alt="" src="imagen/ueser.jpg">
+                                <a title="" href="#">Rannynm</a>
+                                <i>Indonesia</i>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fin de la Sección media-->
+
+
 
 	<!--PIE DE PAGINA-->
 <footer class="footer1">
@@ -141,17 +304,16 @@
                         
                             <li class="widget-container widget_nav_menu"><!-- widgets list -->
                     
-                                <h1 class="title-widget">Useful links</h1>
+                                <h1 class="title-widget">Institución</h1>
                                 
                                 <ul>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> PG Courses</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Achiever's Batch</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Regular Batch</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Test & Discussion</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Fast Track T & D</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Historia</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Misión y Visión</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Directivos</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>Reglamentos</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Perfíl del Estudiante</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Abanderados</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>Infraestructura</a></li>
                                 </ul>
                     
                             </li>
@@ -169,20 +331,13 @@
                         
                             <li class="widget-container widget_nav_menu"><!-- widgets list -->
                     
-                                <h1 class="title-widget">Useful links</h1>
-                                
-                                <ul>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Test Series Schedule</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Postal Coaching</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  PG Dr. Bhatia Books</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  UG Courses</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Satellite Education</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Study Centres</a></li>
-                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  State P.G. Mocks</a></li>
-                                    <li><a  href="#" target="_blank"><i class="fa fa-angle-double-right"></i> Results</a></li>
-                                    
-                                </ul>
-                    
+                                <h1 class="title-widget">Descripción</h1>
+                                    <p class="descripcion">La Unidad Educativa “Sociedad, Educación y Renovación” fue fundada en el 2005, por los profesores Sonia Mejía y Edgar Orrala, para ofrecer un servicio educacional con servicio agregado de actividades extracurriculares, en las tardes.
+                                    Actualmente cuenta con estudiantes desde Segundo Año de Educación Básica hasta Tercer Año de Bachillerato.
+                                    Ofrece el Bachillerato General en Ciencias. El personal docente está formado por 15 profesores incluidos el personal administrativo.
+                                    Dentro de las actividades extracurriculares se considera la realización de tareas, práctica de deportes y desarrollo personal.
+</p>
+                                                    
                             </li>
                             
                         </ul>
@@ -198,19 +353,18 @@
                         
                             <li class="widget-container widget_nav_menu"><!-- widgets list -->
                     
-                                <h1 class="title-widget">Useful links</h1>
+                                <h1 class="title-widget">Información Académica</h1>
                                 
                                 <ul>
 
 
-                <li><a href="#"><i class="fa fa-angle-double-right"></i> Enquiry Form</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i> Online Test Series</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i> Grand Tests Series</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i> Subject Wise Test Series</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i> Smart Book</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i> Test Centres</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i>  Admission Form</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i>  Computer Live Test</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>Noticias</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>Eventos</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i> Entrevistas</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>Deportes</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>Calendario de Actividades</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>Entretenimiento</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>  Proximos Eventos</a></li>
 
                                 </ul>
                     
@@ -230,19 +384,18 @@
                         
                             <li class="widget-container widget_recent_news"><!-- widgets list -->
                     
-                                <h1 class="title-widget">Contact Detail </h1>
+                                <h1 class="title-widget">Detalles de Contactos </h1>
                                 
                                 <div class="footerp"> 
                                 
-                                <h2 class="title-median">Webenlance Pvt. Ltd.</h2>
-                                <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
-                                <p><b>Helpline Numbers </b>
+                                <h2 class="title-median">UESER</h2>
+                                <p><b>Email id:</b> <a href="mailto:info@webenlance.com">ser.colegio.playas@gmail.com</a></p>
+                                <p><b>Números para Emergencias </b>
 
-    <b style="color:#ffc106;">(8AM to 10PM):</b>  +91-8130890090, +91-8130190010  </p>
+    <b style="color:#ffc106;">(7AM to 10PM):</b>  Telf.: 2764480 </p>
     
-    <p><b>Corp Office / Postal Address</b></p>
-    <p><b>Phone Numbers : </b>7042827160, </p>
-    <p> 011-27568832, 9868387223</p>
+    <p><b>Código Postal:  092150</b></p>
+    <p><b>Número de celular : </b>+593985327071 </p>
                                 </div>
       <div class="social-icons">
                                 
@@ -250,8 +403,8 @@
                                     
                 <a href="https://www.facebook.com/ueserplayas/"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
                 <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
-                <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
-                <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                <a href="ser.colegio.playas@gmail.com"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+                <a href="ser.colegio.playas@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
                                     
                                     </ul>
                                 </div>
