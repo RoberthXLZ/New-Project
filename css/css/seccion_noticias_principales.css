@@ -1,0 +1,16 @@
+.section-medium {
+    background-color: #edf0f1;
+    padding: 3rem 0;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.3125rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+section .column, section .columns {
+    margin-bottom: 1rem;
+}
