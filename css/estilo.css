@@ -6,16 +6,24 @@ body{
     display: block;
 }
 header {
+    background-color: black;
 	width: 100%;
     height: 210px;
     position: relative;
     max-width: 100%;
 }
 
+.container1{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+
 #titu{
 	width: 70%;
     float: left;
-    max-width: 70%;
+    max-width:70%;
 }
 #titulo {
 	width: 100%;
@@ -25,7 +33,7 @@ header {
 }
 
 #titu >h1 {
-	font-family: 'Bowlby One', cursive; 
+	font-family: 'Times New Roman', cursive; 
 	font-size: 7em;
 	font-weight: 500;
     margin: 0%;
@@ -43,7 +51,7 @@ header {
     position: relative;
     left: 4%;
     color: #5e84c5;
-    font-family: fantasy;
+    font-family: 'Times New Roman';
 }
 
 
@@ -62,6 +70,15 @@ a:hover {
     max-width: 100%;
 }
 
+.descripcion{
+    text-align: justify;
+    padding: 5px;
+    color: silver;
+    /*font: bold 90% monospace;*/
+}
+h1{
+    color:white;
+}
 
 #seccionNoti{
     width: 100%;
