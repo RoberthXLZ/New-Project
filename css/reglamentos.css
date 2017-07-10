@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+h1.page-header {
+    color: #001A44;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    text-align: left;
+    font-family: Corbel;
+    border-bottom: 2px solid #2065ff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+ol >li{
+    font-size: 1.3em;
+    padding: 5px;
+    font-family: 'Bellefair', serif;
+    color:#001A44;
+}
+
+.contenidos{
+	color: #001A44;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    font-family: 'Bellefair', serif;
+    text-align: center;
+    font-style: 
+
+}
+
+.parrafo{
+	color: #001A44;
+    font-size: 1em;
+    font-family: Verdana, serif;
+    text-align: justify;
+}
+@media (max-width: 768px){
+
+}

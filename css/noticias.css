@@ -1,0 +1,24 @@
+h1{
+	text-align: center;
+}
+
+img{
+	width: 20%;
+	float:left;
+}
+
+.cotainer1 ul{
+	width: 54%;
+}
+.container1 p{
+	width: 60%;
+	float: block-inline;
+}
+.container1{
+
+	height: auto;
+	width: auto;
+}
+
+
+

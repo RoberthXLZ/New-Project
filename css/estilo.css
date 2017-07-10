@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Jaldi');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+body{
+    height: auto;
+    padding: 0%;
+    display: block;
+}
+header {
+	width: 100%;
+    height: 210px;
+    position: relative;
+    max-width: 100%;
+}
+
+.lead{
+    color:black;
+}
+
+#titu{
+	width: 70%;
+    float: left;
+    max-width: 70%;
+}
+#titulo {
+	width: 100%;
+    height: 155px;
+    background-color:  #e7e6e6;
+    max-width: 100%;
+}
+
+#titu >h1 {
+	font-family: 'Bowlby One', cursive; 
+	font-size: 7em;
+	font-weight: 500;
+    margin: 0%;
+    width: auto;
+    position: relative;
+    left: 7%;
+    color: #254461;
+}
+
+
+#titu >h2{
+	width: auto;
+	margin: 0%;
+    font-size: 1.5em;
+    position: relative;
+    left: 4%;
+    color: #5e84c5;
+    font-family: fantasy;
+}
+
+
+h1>a{
+    color: #254461;
+}
+a:hover {
+    text-decoration: none;
+    color: #254461;
+}
+#piedepagina{
+    background-color: #254461;
+    clear: both;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.mapG {
+    width: 100%;
+    height: 450px;
+}
+#seccionNoti{
+    width: 100%;
+    max-width: 100%;
+}
+#mapas{
+    width:100%;
+    height:auto;
+}
+#peque{
+    display: none;
+}
+b,p{
+    color: #fff;
+}
+
+
+@media (max-width: 768px){
+     .footer1{
+        display: none;
+     }
+     #titu {
+         width: 100%;
+         max-width: 100%;
+     }
+     #titu >h1 {
+        text-align: center;
+        left: 0%;
+     }
+
+     #titu >h2{
+        text-align: center;
+        left: 0%;
+     }
+     .mapG {
+        width: 100%;
+        height: 450px;
+
+     }
+     .social-icons{
+        margin-right: 41.3%;
+        margin-left: 33.3%;
+     }
+
+     #peque{
+        display: block;
+        background: #254461;
+     }
+}
+
+@media (max-width: 510px){
+    #titu >h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 436px){
+    #titu >h1 {
+        font-size: 5.2em;
+    }
+    #titu >h2 {
+        font-size: 1.2em;
+    }
+}

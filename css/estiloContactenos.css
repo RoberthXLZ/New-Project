@@ -1,0 +1,11 @@
+.section-header{
+	color: #001A44;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    text-align: left;
+    font-family: Corbel;
+    border-bottom: 2px solid #2065ff;
+    font-weight: bold;
+    margin-top: 10px;
+}
