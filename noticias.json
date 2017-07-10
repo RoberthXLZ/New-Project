@@ -1,0 +1,20 @@
+{
+  "contenido" :[
+      {
+        "titulo": "Olimpiadas UESER",
+        "texto": "Este Domingo 9 de Julio  "
+        "imagen": "img/logo.png"
+      },
+      {
+        "titulo": "Aniversario de La Institución",
+        "texto": "El proximo 1 de Agosoto "
+        "imagen": "img/bachillerato1.jpg"
+      },
+      {
+        "titulo": "Desfiles ",
+        "texto": "El proximo "
+        "imagen": "img/bachillerato2.jpg"
+      }
+  ]
+
+}

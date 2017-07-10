@@ -1,0 +1,24 @@
+{
+    "actividades": [{
+    		"titulo": "Olimpiadas UESER",
+            "contenido": "Este Domingo 9 de Julio se Este Domingo 9 de Julio se llevaran a cabo las decimosegunda olimpidas de la Unidad Educativa SER.  En esta Olimpiadas participan alumnos, padres y profesores.",
+            "src": "img/logo.png"
+        },
+        {
+    		"titulo": "Aniversario de La Institución",
+            "contenido": "El proximo 1 de Agosoto se desarrollara el decimosegundo Aniversario de la Institución. Justo en esa semana se inagura las fiestas de Playas, asi que se hará un desfile y actividades festivas.",
+        "src": "img/ueser.jpg"
+        },
+        {
+    		"titulo": "Desfiles",
+            "contenido": "El proximo 15 de Agosoto de llevará a cabo las fiestas de Playas por lo que cada Institución debe presentarse a los desfiles. UESER formará parte de las Instituciones a desfilar",
+            "src": "img/abanderados.jpg"
+        },
+        {
+    		"titulo": "Abanderados",
+            "contenido": "El proximo 26 de Septiembre de llevará a cabo el juramento de la Bandera",
+            "src": "img/juramento.jpg"
+        }
+
+    ]
+}
