@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+.section-header{
+  color: #001A44;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    text-align: left;
+    font-family: Corbel;
+    border-bottom: 2px solid #2065ff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contenido {
+  list-style-type: none;
+  font-family: Verdana;
+  font-size: 1.5em;
+}
+
+.img-circle {
+    border-radius: 3%;
+    width: 100%;
+
+}
+.col-md-2 {
+    width: 15%;
+    border-bottom: #82f36d solid;
+    border-left: #82f36d solid;
+    border-radius: 5%;
+}
+
+
+
+.page-header {
+  border: none;
+  text-align: center;
+}
+  .page-header h1 {
+    margin-bottom: 6px;
+  }
+  .page-header h2 {
+    margin-top: 0;
+  }
+
+.testiminial-block{padding: 10px 0 30px; border-bottom:1px solid #ccc; dispaly:block; margin:0 0 20px;}
+.testimonial-content h3{
+    margin-top:0px; 
+    color:#666262;
+    font-family: 'Bellefair', serif;
+    font-size: 3em;
+  }
+.testimonial-content p{color:#777;}
+.testimonial-author{font-size:12px; font-style:italic; color:#999;}
+.comp-logo{padding-top:40px;}
+
+@media (max-width: 991px) {
+   .col-md-2 {
+        width: 23%;
+   }
+
+@media (max-width: 768px) {
+  .col-md-2 {
+        width: 23%;
+        left: 38%;
+        border-bottom: none;
+        border-left: none;
+   }
+   .testimonial-content{
+      margin:20px 0px;
+    }
+    .comp-logo{
+       padding-top:0px;
+    }
+}
